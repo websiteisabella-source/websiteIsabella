@@ -120,4 +120,34 @@
     opacity: 0.05;
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' /%3E%3C/svg%3E");
   }
+
+  /* Soft, organic rounded corners for imagery and cards. */
+  .rounded-organic {
+    border-radius: 1.75rem;
+  }
+
+  .rounded-organic-lg {
+    border-radius: 2.5rem;
+  }
+
+  /* Fluid asymmetric "petal" blob used for editorial imagery. */
+  .rounded-petal {
+    border-radius: 62% 38% 46% 54% / 55% 48% 52% 45%;
+  }
+
+  /* Overlaid sticker / tag element that breaks the photographic grid. */
+  .sticker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border-radius: 9999px;
+    padding: 0.4rem 0.9rem;
+    font-family: var(--font-sans);
+    font-size: 0.62rem;
+    font-weight: 600;
+    text-transform: lowercase;
+    letter-spacing: 0.02em;
+    box-shadow: 0 8px 22px -12px rgba(46, 37, 33, 0.45);
+    backdrop-filter: blur(2px);
+  }
 }

@@ -46,17 +46,19 @@ export function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 1 }}
-          className="mb-5 text-[0.7rem] uppercase tracking-luxe text-cream/90"
+          className="mb-6 text-[0.7rem] lowercase tracking-luxe text-cream/90"
         >
-          Lookbook / Temporada Atardecer
+          lookbook / temporada atardecer
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-          className="editorial-title max-w-4xl px-6 text-balance text-5xl text-cream sm:text-6xl md:text-8xl"
+          className="editorial-title max-w-5xl px-6 text-balance text-4xl uppercase leading-[0.98] text-cream sm:text-6xl md:text-8xl"
         >
-          Vestir la luz <span className="italic">de la tarde</span>
+          Si puedo imaginarlo,
+          <br />
+          <span className="italic">lo puedo hacer</span>
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -65,7 +67,7 @@ export function Hero() {
           className="mt-10"
         >
           <CtaLink href="/#colecciones" variant="coral">
-            Descubrir la colección
+            descubrir la colección
             <ArrowIcon className="size-4" />
           </CtaLink>
         </motion.div>
@@ -77,8 +79,8 @@ export function Hero() {
         transition={{ delay: 1.6, duration: 1 }}
         className="absolute bottom-6 left-1/2 z-10 hidden -translate-x-1/2 flex-col items-center gap-2 md:flex"
       >
-        <span className="text-[0.6rem] uppercase tracking-luxe text-cream/80">
-          Desliza
+        <span className="text-[0.6rem] lowercase tracking-luxe text-cream/80">
+          desliza
         </span>
         <motion.span
           animate={{ y: [0, 8, 0] }}

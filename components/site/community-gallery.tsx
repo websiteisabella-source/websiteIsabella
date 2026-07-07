@@ -32,8 +32,8 @@ export function CommunityGallery() {
     <section id="comunidad" className="px-5 py-24 md:px-10 md:py-32">
       <div className="mx-auto max-w-7xl">
         <Reveal className="mb-12 flex flex-col items-center text-center">
-          <span className="text-[0.7rem] uppercase tracking-luxe text-coral">
-            Comunidad
+          <span className="text-[0.7rem] lowercase tracking-luxe text-coral">
+            comunidad
           </span>
           <h2 className="editorial-title mt-4 max-w-2xl text-balance text-4xl text-ink md:text-6xl">
             Mujeres reales, momentos reales
@@ -58,7 +58,7 @@ export function CommunityGallery() {
                 i === 0 || i === 3 ? 'col-span-2 md:col-span-2' : 'col-span-1'
               }
             >
-              <div className="group relative aspect-square overflow-hidden rounded-sm">
+              <div className="group relative aspect-square overflow-hidden rounded-organic">
                 <Image
                   src={photo.src || '/placeholder.svg'}
                   alt={photo.alt}

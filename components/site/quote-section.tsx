@@ -36,8 +36,8 @@ export function QuoteSection() {
         transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
         className="relative max-w-4xl text-center"
       >
-        <p className="text-[0.7rem] uppercase tracking-luxe text-petal">
-          Manifiesto
+        <p className="text-[0.7rem] lowercase tracking-luxe text-petal">
+          manifiesto
         </p>
         <p className="editorial-title mt-8 text-balance text-3xl leading-tight text-cream sm:text-4xl md:text-6xl">
           Creemos en la belleza que no grita.
@@ -45,8 +45,8 @@ export function QuoteSection() {
           <span className="italic">En vestir despacio</span>, en lo natural, y
           en la emoción de sentirse una misma.
         </p>
-        <p className="mx-auto mt-10 max-w-lg text-sm leading-relaxed text-cream/75">
-          ISOLÉ no es una tienda. Es una invitación a habitar la ropa con calma y
+        <p className="mx-auto mt-10 max-w-lg text-sm lowercase leading-relaxed text-cream/75">
+          isolé no es una tienda. es una invitación a habitar la ropa con calma y
           a celebrar lo femenino en su forma más auténtica.
         </p>
       </motion.blockquote>

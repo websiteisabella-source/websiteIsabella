@@ -15,7 +15,7 @@ export function ProductCard({
       className="group block"
       aria-label={`${product.name}, ${product.category}`}
     >
-      <div className="relative aspect-[3/4] overflow-hidden rounded-sm bg-muted">
+      <div className="relative aspect-[3/4] overflow-hidden rounded-organic bg-muted">
         <Image
           src={product.product || '/placeholder.svg'}
           alt={`${product.name} - vista de producto`}
@@ -30,14 +30,14 @@ export function ProductCard({
           sizes={sizes}
           className="object-cover opacity-0 transition-all duration-[900ms] ease-luxe group-hover:scale-105 group-hover:opacity-100"
         />
-        <span className="absolute left-4 top-4 rounded-full bg-cream/85 px-3 py-1 text-[0.6rem] uppercase tracking-[0.16em] text-ink backdrop-blur-sm">
-          Disponible en tienda
+        <span className="sticker absolute left-4 top-4 -rotate-2 bg-cream/90 text-ink">
+          disponible en tienda
         </span>
       </div>
 
       <div className="mt-5 flex items-baseline justify-between gap-4">
         <h3 className="font-serif text-2xl text-ink">{product.name}</h3>
-        <span className="text-[0.7rem] uppercase tracking-[0.18em] text-muted-foreground transition-colors duration-500 group-hover:text-coral">
+        <span className="text-[0.7rem] lowercase tracking-[0.16em] text-muted-foreground transition-colors duration-500 group-hover:text-coral">
           {product.category}
         </span>
       </div>
