@@ -4,7 +4,6 @@ import Image from 'next/image'
 import { motion } from 'motion/react'
 import { CtaLink } from './cta-button'
 import { ArrowIcon } from './icons'
-import { HERO_VIDEO_URL } from '@/lib/site'
 
 export function Hero() {
   return (
@@ -15,29 +14,14 @@ export function Hero() {
         animate={{ scale: 1 }}
         transition={{ duration: 2.4, ease: [0.22, 1, 0.36, 1] }}
       >
-        {/* Poster / fallback still. Always rendered for a fast LCP and as the
-            backdrop while the optional loop video buffers. */}
         <Image
           src="/images/hero.png"
-          alt="Mujer con vestido de lino al atardecer en una terraza mediterránea"
+          alt="Mujer con vestido de lino al atardecer en una terraza mediterr\u00e1nea"
           fill
           priority
           sizes="100vw"
           className="object-cover object-center"
         />
-        {HERO_VIDEO_URL && (
-          <video
-            className="absolute inset-0 size-full object-cover object-center"
-            src={HERO_VIDEO_URL}
-            poster="/images/hero.png"
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            aria-hidden="true"
-          />
-        )}
         <div className="absolute inset-0 bg-gradient-to-b from-ink/20 via-transparent to-ink/40" />
       </motion.div>
 
@@ -65,7 +49,7 @@ export function Hero() {
           className="mt-10"
         >
           <CtaLink href="/#colecciones" variant="coral">
-            Descubrir la colección
+            Descubrir la colecci\u00f3n
             <ArrowIcon className="size-4" />
           </CtaLink>
         </motion.div>

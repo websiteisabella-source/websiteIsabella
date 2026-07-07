@@ -43,11 +43,11 @@ export function QuoteSection() {
           Creemos en la belleza que no grita.
           <br />
           <span className="italic">En vestir despacio</span>, en lo natural, y
-          en la emoción de sentirse una misma.
+          en la emoci\u00f3n de sentirse una misma.
         </p>
         <p className="mx-auto mt-10 max-w-lg text-sm leading-relaxed text-cream/75">
-          ISOLÉ no es una tienda. Es una invitación a habitar la ropa con calma y
-          a celebrar lo femenino en su forma más auténtica.
+          ISOL\u00c9 no es una tienda. Es una invitaci\u00f3n a habitar la ropa con calma y
+          a celebrar lo femenino en su forma m\u00e1s aut\u00e9ntica.
         </p>
       </motion.blockquote>
     </section>

@@ -28,14 +28,14 @@ export function EditorialSection() {
           Nacimos del deseo de vestir lo natural
         </h2>
         <p className="mt-7 text-base leading-relaxed text-muted-foreground">
-          ISOLÉ es una conversación entre la piel y la tela. Trabajamos con
-          materiales nobles, tonos cálidos y siluetas que respiran, creando
-          piezas pensadas para acompañar la vida real: la luz de una mañana,
+          ISOL\u00c9 es una conversaci\u00f3n entre la piel y la tela. Trabajamos con
+          materiales nobles, tonos c\u00e1lidos y siluetas que respiran, creando
+          piezas pensadas para acompa\u00f1ar la vida real: la luz de una ma\u00f1ana,
           el calor de una tarde y la calma de volver a casa.
         </p>
         <p className="mt-4 text-base leading-relaxed text-muted-foreground">
           No seguimos temporadas, seguimos emociones. Cada prenda se confecciona
-          en cantidades pequeñas, con tiempo y con manos que cuidan el detalle.
+          en cantidades peque\u00f1as, con tiempo y con manos que cuidan el detalle.
         </p>
         <div className="mt-10">
           <CtaLink href="/#colecciones" variant="outline">

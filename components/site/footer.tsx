@@ -16,7 +16,7 @@ export function Footer() {
               ISOL&Eacute;
             </p>
             <p className="mt-6 text-sm leading-relaxed text-cream/70">
-              Una casa de moda romántica y natural. Cada pieza nace para ser
+              Una casa de moda rom\u00e1ntica y natural. Cada pieza nace para ser
               sentida, no solo vestida.
             </p>
           </div>
@@ -38,14 +38,14 @@ export function Footer() {
               Calle del Atardecer 14
               <br />
             </p>
-            <p className="text-sm text-cream/70">Mar a Sáb / 11:00 a 20:00</p>
+            <p className="text-sm text-cream/70">Mar a S\u00e1b / 11:00 a 20:00</p>
             <p className="text-sm text-cream/70">Cita previa disponible</p>
           </FooterCol>
 
           <FooterCol title="Contacto">
             <a
               href={whatsappLink(
-                `Hola ${SITE_NAME}, me gustaría más información.`,
+                `Hola ${SITE_NAME}, me gustar\u00eda m\u00e1s informaci\u00f3n.`,
               )}
               target="_blank"
               rel="noopener noreferrer"
@@ -79,7 +79,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-cream/15 pt-8 text-xs text-cream/50 md:flex-row">
           <p>&copy; {new Date().getFullYear()} {SITE_NAME}. Hecho con calma.</p>
-          <p className="uppercase tracking-[0.2em]">Disponible en tienda física</p>
+          <p className="uppercase tracking-[0.2em]">Disponible en tienda f\u00edsica</p>
         </div>
       </div>
     </footer>

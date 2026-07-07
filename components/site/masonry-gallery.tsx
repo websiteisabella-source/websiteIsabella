@@ -6,26 +6,26 @@ const items = [
     src: '/images/collection-1.png',
     alt: 'Mujer con vestido cruzado color crema junto a un muro de piedra',
     label: 'Atardecer',
-    caption: 'Colección',
+    caption: 'Colecci\u00f3n',
     href: '/#novedades',
   },
   {
     src: '/images/collection-2.png',
     alt: 'Prendas de lino dobladas en tonos coral, rosa y crema',
     label: 'Lino Vivo',
-    caption: 'Cápsula',
+    caption: 'C\u00e1psula',
     href: '/#novedades',
   },
   {
     src: '/images/collection-3.png',
-    alt: 'Mujer reposando sobre sábanas de lino con vestido rosa pétalo',
-    label: 'Pétalo',
-    caption: 'Edición noche',
+    alt: 'Mujer reposando sobre s\u00e1banas de lino con vestido rosa p\u00e9talo',
+    label: 'P\u00e9talo',
+    caption: 'Edici\u00f3n noche',
     href: '/#novedades',
   },
   {
     src: '/images/collection-4.png',
-    alt: 'Detalle de joyería dorada sobre prenda de seda coral',
+    alt: 'Detalle de joyer\u00eda dorada sobre prenda de seda coral',
     label: 'Detalles',
     caption: 'Accesorios',
     href: '/#novedades',
@@ -41,14 +41,14 @@ export function MasonryGallery() {
       <Reveal className="mb-12 flex flex-col items-start justify-between gap-4 md:mb-16 md:flex-row md:items-end">
         <div>
           <span className="text-[0.7rem] uppercase tracking-luxe text-coral">
-            Colección destacada
+            Colecci\u00f3n destacada
           </span>
           <h2 className="editorial-title mt-4 max-w-xl text-balance text-4xl text-ink md:text-6xl">
             Composiciones que respiran
           </h2>
         </div>
         <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
-          Una selección editorial entre el cuerpo, la luz y la tela. Pensada para
+          Una selecci\u00f3n editorial entre el cuerpo, la luz y la tela. Pensada para
           mirarse sin prisa.
         </p>
       </Reveal>
