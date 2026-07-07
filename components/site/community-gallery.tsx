@@ -10,12 +10,12 @@ const photos = [
   },
   {
     src: '/images/community-2.png',
-    alt: 'Mujer con vestido coral tomando caf\u00e9 en una terraza soleada',
+    alt: 'Mujer con vestido coral tomando café en una terraza soleada',
   },
   { src: '/images/community-3.png', alt: 'Dos amigas caminando juntas al atardecer' },
   {
     src: '/images/community-4.png',
-    alt: 'Mujer leyendo junto a la ventana con luz c\u00e1lida',
+    alt: 'Mujer leyendo junto a la ventana con luz cálida',
   },
   {
     src: '/images/community-5.png',
@@ -23,7 +23,7 @@ const photos = [
   },
   {
     src: '/images/community-6.png',
-    alt: 'Retrato c\u00e1lido de mujer sonriendo a la luz natural',
+    alt: 'Retrato cálido de mujer sonriendo a la luz natural',
   },
 ]
 

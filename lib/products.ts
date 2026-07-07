@@ -16,7 +16,7 @@ export const products: Product[] = [
     name: 'Vestido Atardecer',
     category: 'Vestidos',
     description:
-      'Un vestido de lino que cae como la \u00faltima luz de la tarde. Pensado para moverse con el viento y abrazar el cuerpo sin pedir permiso.',
+      'Un vestido de lino que cae como la última luz de la tarde. Pensado para moverse con el viento y abrazar el cuerpo sin pedir permiso.',
     fabric: 'Lino 100% natural',
     colors: ['Atardecer Coral', 'Nude'],
     product: '/images/arrival-1-product.png',
@@ -33,9 +33,9 @@ export const products: Product[] = [
     name: 'Blusa Seda Alba',
     category: 'Blusas',
     description:
-      'La calma de la ma\u00f1ana hecha prenda. Una blusa de seda que se desliza sobre la piel con una elegancia silenciosa y atemporal.',
+      'La calma de la mañana hecha prenda. Una blusa de seda que se desliza sobre la piel con una elegancia silenciosa y atemporal.',
     fabric: 'Seda lavada',
-    colors: ['Crema', 'P\u00e9talo Rosa'],
+    colors: ['Crema', 'Pétalo Rosa'],
     product: '/images/arrival-2-product.png',
     model: '/images/arrival-2-model.png',
     gallery: [
@@ -46,12 +46,12 @@ export const products: Product[] = [
   },
   {
     slug: 'slip-petalo',
-    name: 'Slip P\u00e9talo',
+    name: 'Slip Pétalo',
     category: 'Vestidos',
     description:
-      'Un slip dress de sat\u00e9n en tono p\u00e9talo, rom\u00e1ntico y desnudo. Hecho para las noches c\u00e1lidas y los momentos que se quedan.',
-    fabric: 'Sat\u00e9n de viscosa',
-    colors: ['P\u00e9talo Rosa', 'Lavanda Viva'],
+      'Un slip dress de satén en tono pétalo, romántico y desnudo. Hecho para las noches cálidas y los momentos que se quedan.',
+    fabric: 'Satén de viscosa',
+    colors: ['Pétalo Rosa', 'Lavanda Viva'],
     product: '/images/arrival-3-product.png',
     model: '/images/arrival-3-model.png',
     gallery: [
