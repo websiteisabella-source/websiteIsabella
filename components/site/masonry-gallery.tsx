@@ -8,8 +8,6 @@ const items = [
     label: 'Atardecer',
     caption: 'Colección',
     href: '/#novedades',
-    tag: 'edición limitada',
-    tagClassName: '-rotate-3 bg-coral text-primary-foreground',
   },
   {
     src: '/images/collection-2.png',
@@ -17,8 +15,6 @@ const items = [
     label: 'Lino Vivo',
     caption: 'Cápsula',
     href: '/#novedades',
-    tag: 'lino natural',
-    tagClassName: 'rotate-2 bg-petal text-ink',
   },
   {
     src: '/images/collection-3.png',
@@ -26,8 +22,6 @@ const items = [
     label: 'Pétalo',
     caption: 'Edición noche',
     href: '/#novedades',
-    tag: 'nuevo',
-    tagClassName: 'rotate-3 bg-lavender text-cream',
   },
   {
     src: '/images/collection-4.png',
@@ -46,20 +40,20 @@ export function MasonryGallery() {
     >
       <Reveal className="mb-12 flex flex-col items-start justify-between gap-4 md:mb-16 md:flex-row md:items-end">
         <div>
-          <span className="text-[0.7rem] lowercase tracking-luxe text-coral">
-            lookbook interactivo
+          <span className="text-[0.7rem] uppercase tracking-luxe text-coral">
+            Colección destacada
           </span>
           <h2 className="editorial-title mt-4 max-w-xl text-balance text-4xl text-ink md:text-6xl">
             Composiciones que respiran
           </h2>
         </div>
-        <p className="max-w-xs text-sm lowercase leading-relaxed text-muted-foreground">
-          una selección editorial entre el cuerpo, la luz y la tela. pensada para
+        <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
+          Una selección editorial entre el cuerpo, la luz y la tela. Pensada para
           mirarse sin prisa.
         </p>
       </Reveal>
 
-      <div className="grid auto-rows-[15rem] grid-cols-2 gap-5 md:auto-rows-[17rem] md:grid-cols-4 md:gap-8">
+      <div className="grid auto-rows-[14rem] grid-cols-2 gap-4 md:auto-rows-[16rem] md:grid-cols-4 md:gap-5">
         <Reveal className="col-span-2 row-span-2 md:col-span-2">
           <CollectionCard
             {...items[0]}

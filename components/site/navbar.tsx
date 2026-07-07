@@ -129,7 +129,7 @@ export function Navbar() {
                   <Link
                     href={l.href}
                     onClick={() => setOpen(false)}
-                    className="font-serif text-3xl lowercase text-ink"
+                    className="font-serif text-3xl text-ink"
                   >
                     {l.label}
                   </Link>
@@ -147,7 +147,7 @@ function NavItem({ label, href }: { label: string; href: string }) {
   return (
     <Link
       href={href}
-      className="group relative text-xs font-medium lowercase tracking-[0.16em] text-ink/80 transition-colors duration-500 hover:text-ink"
+      className="group relative text-xs font-medium uppercase tracking-[0.18em] text-ink/80 transition-colors duration-500 hover:text-ink"
     >
       {label}
       <span className="absolute -bottom-1 left-0 h-px w-0 bg-coral transition-all duration-500 ease-luxe group-hover:w-full" />

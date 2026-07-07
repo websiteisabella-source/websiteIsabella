@@ -19,7 +19,7 @@ type BaseProps = {
 }
 
 const baseClass =
-  'inline-flex items-center justify-center gap-2 rounded-full px-8 py-3.5 text-xs font-semibold lowercase tracking-[0.14em] transition-all duration-500 ease-luxe'
+  'inline-flex items-center justify-center gap-2 rounded-full px-8 py-3.5 text-xs font-medium uppercase tracking-[0.18em] transition-all duration-500 ease-luxe'
 
 export function CtaLink({
   variant = 'coral',
