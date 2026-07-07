@@ -79,7 +79,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-cream/15 pt-8 text-xs text-cream/50 md:flex-row">
           <p>&copy; {new Date().getFullYear()} {SITE_NAME}. Hecho con calma.</p>
-          <p className="uppercase tracking-[0.2em]">Disponible en tienda física</p>
+          <p className="lowercase tracking-[0.2em]">disponible en tienda física</p>
         </div>
       </div>
     </footer>
@@ -95,7 +95,7 @@ function FooterCol({
 }) {
   return (
     <div className="flex flex-col gap-3">
-      <h3 className="mb-1 text-[0.7rem] uppercase tracking-[0.2em] text-cream/50">
+      <h3 className="mb-1 text-[0.7rem] lowercase tracking-[0.2em] text-cream/50">
         {title}
       </h3>
       {children}
