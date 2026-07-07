@@ -30,7 +30,7 @@ export function Newsletter() {
           className="mt-6 flex items-center gap-3 border-b border-cream/30 pb-2"
         >
           <label htmlFor="newsletter-email" className="sr-only">
-            Tu correo electr\u00f3nico
+            Tu correo electrónico
           </label>
           <input
             id="newsletter-email"
