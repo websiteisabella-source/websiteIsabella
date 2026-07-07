@@ -47,7 +47,7 @@ export default async function ProductPage({
   }
 
   const related = products.filter((p) => p.slug !== product.slug)
-  const message = `Hola ${SITE_NAME}, me gustar\u00eda consultar la disponibilidad de "${product.name}".`
+  const message = `Hola ${SITE_NAME}, me gustaría consultar la disponibilidad de "${product.name}".`
 
   return (
     <>
@@ -118,7 +118,7 @@ export default async function ProductPage({
                     Consultar disponibilidad por WhatsApp
                   </a>
                   <p className="mt-4 text-xs leading-relaxed text-muted-foreground">
-                    Te responderemos personalmente. Tambi\u00e9n puedes visitarnos en
+                    Te responderemos personalmente. También puedes visitarnos en
                     el showroom para verla y sentirla.
                   </p>
                 </div>
@@ -130,10 +130,10 @@ export default async function ProductPage({
         <section className="mx-auto max-w-7xl px-5 py-24 md:px-10 md:py-32">
           <Reveal className="mb-12 text-center">
             <span className="text-[0.7rem] uppercase tracking-luxe text-coral">
-              Tambi\u00e9n te puede gustar
+              También te puede gustar
             </span>
             <h2 className="editorial-title mt-4 text-4xl text-ink md:text-5xl">
-              Contin\u00faa la historia
+              Continúa la historia
             </h2>
           </Reveal>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:gap-7">
@@ -148,7 +148,7 @@ export default async function ProductPage({
           </div>
           <div className="mt-14 flex justify-center">
             <CtaLink href="/#colecciones" variant="outline">
-              Ver toda la colecci\u00f3n
+              Ver toda la colección
             </CtaLink>
           </div>
         </section>

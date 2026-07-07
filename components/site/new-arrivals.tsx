@@ -8,10 +8,10 @@ export function NewArrivals() {
       <div className="mx-auto max-w-7xl">
         <Reveal className="mb-14 text-center">
           <span className="text-[0.7rem] uppercase tracking-luxe text-coral">
-            Reci\u00e9n llegado
+            Recién llegado
           </span>
           <h2 className="editorial-title mx-auto mt-4 max-w-2xl text-balance text-4xl text-ink md:text-6xl">
-            Las piezas que estrenan la estaci\u00f3n
+            Las piezas que estrenan la estación
           </h2>
           <p className="mx-auto mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
             Pasa el cursor sobre cada pieza para verla cobrar vida. Todas

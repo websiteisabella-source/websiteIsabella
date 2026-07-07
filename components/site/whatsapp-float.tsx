@@ -8,11 +8,11 @@ export function WhatsAppFloat() {
   return (
     <motion.a
       href={whatsappLink(
-        `Hola ${SITE_NAME}, me gustar\u00eda conocer m\u00e1s sobre sus piezas.`,
+        `Hola ${SITE_NAME}, me gustaría conocer más sobre sus piezas.`,
       )}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Escr\u00edbenos por WhatsApp"
+      aria-label="Escríbenos por WhatsApp"
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ delay: 1.8, duration: 0.6 }}

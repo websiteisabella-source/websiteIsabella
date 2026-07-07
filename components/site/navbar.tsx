@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
-import { CloseIcon, MenuIcon } from './icons'
+import { CloseIcon, HeartSunIcon, MenuIcon } from './icons'
 
 const leftLinks = [
   { label: 'Colecciones', href: '/#colecciones' },
@@ -63,17 +63,25 @@ export function Navbar() {
           type="button"
           onClick={() => setOpen(true)}
           className="text-ink md:hidden"
-          aria-label="Abrir men\u00fa"
+          aria-label="Abrir menú"
         >
           <MenuIcon className="size-6" />
         </button>
 
         <Link
           href="/"
-          className="font-serif text-2xl tracking-[0.32em] text-ink md:text-3xl"
-          aria-label="ISOL\u00c9, ir al inicio"
+          className="flex flex-col items-center gap-1 px-6 text-ink"
+          aria-label="ISOLÉ, ir al inicio"
         >
-          ISOL&Eacute;
+          <HeartSunIcon
+            className={`size-5 text-coral transition-all duration-700 ease-luxe md:size-6 ${
+              scrolled ? 'opacity-100' : 'opacity-90'
+            }`}
+            aria-hidden="true"
+          />
+          <span className="font-serif text-2xl leading-none tracking-[0.32em] md:text-3xl">
+            ISOL&Eacute;
+          </span>
         </Link>
 
         <ul className="hidden flex-1 items-center justify-end gap-8 md:flex">
@@ -97,13 +105,14 @@ export function Navbar() {
             className="fixed inset-0 z-50 flex flex-col bg-nude md:hidden"
           >
             <div className="flex h-16 items-center justify-between px-5">
-              <span className="font-serif text-2xl tracking-[0.32em] text-ink">
+              <span className="flex items-center gap-2 font-serif text-2xl tracking-[0.32em] text-ink">
+                <HeartSunIcon className="size-5 text-coral" aria-hidden="true" />
                 ISOL&Eacute;
               </span>
               <button
                 type="button"
                 onClick={() => setOpen(false)}
-                aria-label="Cerrar men\u00fa"
+                aria-label="Cerrar menú"
                 className="text-ink"
               >
                 <CloseIcon className="size-6" />
